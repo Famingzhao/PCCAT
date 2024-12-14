@@ -273,11 +273,6 @@ plot.clusters.group(data = seurat.data.all,
 
 ## 2.2 OR Ro/e
 meta.tb <- seurat.data.all@meta.data
-meta.tb$group4 =  factor(recode(meta.tb$group3,
-                                "N" = "Non-tumor",
-                                "Adj" = "Non-tumor"), 
-                         levels = c("Non-tumor","Pri","CRPC/Met"))
-
 meta.tb$sampleID = as.character(meta.tb$sampleID)
 table( meta.tb$sampleID)
 res_all = gg.tissueDist(cellInfo.tb = meta.tb,
