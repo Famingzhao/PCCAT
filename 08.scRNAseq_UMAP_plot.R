@@ -277,7 +277,7 @@ meta.tb$sampleID = as.character(meta.tb$sampleID)
 table( meta.tb$sampleID)
 res_all = gg.tissueDist(cellInfo.tb = meta.tb,
                         meta.cluster = meta.tb$ct.L2,
-                        colname.patient = "SampleID",
+                        colname.patient = "sampleID",
                         loc = meta.tb$group2,
                         cuts =c(0, 0.1, 1, 1.5, 2, 5, Inf),
                         bin.label = c("-", "+/-", "+", "++", "+++", "++++"),
@@ -295,10 +295,10 @@ library(data.table)
 dat.plot = data.table(meta.tb)
 dat.plot$Celltype = dat.plot$ct.L2
 dat.plot$Group = dat.plot$group2
-dat.plot$SampleID = dat.plot$sampleID
+dat.plot$sampleID = dat.plot$sampleID
 
-dat.plot <- dat.plot[,.(N=.N),by=c("SampleID","Celltype","Group")]
-sum.data <- dat.plot[,{.(NTotal = sum(.SD$N))},by=c("SampleID","Group")]
+dat.plot <- dat.plot[,.(N=.N),by=c("sampleID","Celltype","Group")]
+sum.data <- dat.plot[,{.(NTotal = sum(.SD$N))},by=c("sampleID","Group")]
 
 dat.plot = left_join(dat.plot,sum.data)
 dat.plot$freq = dat.plot$N / dat.plot$NTotal *100
