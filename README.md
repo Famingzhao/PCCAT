@@ -18,7 +18,7 @@ We developed an interactive web portal called PCCAT (https://pccat.net) to maxim
 
 **Deciphering single-cell heterogeneity and cellular ecosystem dynamics during prostate cancer progression**
 
-Faming Zhao#, Jianming Zeng#, Canping Chen#, Xiaofan Zhao, Tingting Zhang, Julie N. Graff, George V. Thomas, Guan Fan, Rosalie C. Sears, Joshi J. Alumkal, Amy E. Moran, Gordon B. Mills, Peter S. Nelson※, Zheng Xia※. Deciphering single-cell heterogeneity and cellular ecosystem dynamics during prostate cancer progression. Preprint.
+Faming Zhao#, Jianming Zeng#, Canping Chen#, Xiaofan Zhao, Tingting Zhang, Julie N. Graff, George V. Thomas, Guan Fan, Rosalie C. Sears, Joshi J. Alumkal, Amy E. Moran, Gordon B. Mills, Peter S. Nelson※, Zheng Xia※. Deciphering single-cell heterogeneity and cellular ecosystem dynamics during prostate cancer progression. bioRxiv 2024.12.18.629070; doi: https://doi.org/10.1101/2024.12.18.629070
 
 
 
