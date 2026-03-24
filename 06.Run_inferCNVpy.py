@@ -69,7 +69,7 @@ myfig = plt.gcf() # Get the current figure. If no current figure exists, a new o
 cnv.pl.chromosome_heatmap(adata, groupby=reference_key,  show=False, dendrogram=True)
 plt.savefig("{}Step1.CNV_score_celltype.pdf".format(outdir), dpi=300)
 
-## 2.3 降维聚类
+## 2.3 Dimensionality reduction and clustering
 cnv.tl.pca(adata)
 cnv.pp.neighbors(adata)
 cnv.tl.leiden(adata)
